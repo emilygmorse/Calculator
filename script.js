@@ -108,15 +108,6 @@ class Theme {
         }
         this.colorWays = colorWays
         this.color = this.colorWays.Pink
-        /*if (number == 1) {
-            this.color = pink
-            this.number = 0
-        } else if (number == 0) {
-            this.color = blue
-            this.number = 1
-        } else {
-            this.color = null
-        }*/
     }
 
     changeTheme(output) {
@@ -142,12 +133,10 @@ const currentOperandTextElement = document.querySelector('[data-current-operand]
 const output = document.querySelector('[output]')
 
 const calculator = new Calulator(previousOperandTextElement, currentOperandTextElement)
-//const theme = new Theme(1);
 
 const applyThemeButton = document.querySelector('[data-apply-theme]')
 
 const theme = new Theme()
-//const special = document.querySelector('[special]')
 applyThemeButton.addEventListener('click', () =>{
     theme.changeTheme(output)
 })

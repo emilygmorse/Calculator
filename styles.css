@@ -59,7 +59,7 @@ body {
 
 .apply-theme {
     display: block;
-    justify-content: left;
+    justify-content: center;
     align-content: top;
     min-height: 25vh;
 }
@@ -69,5 +69,5 @@ body {
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
-    background-color: red;
+    background-color: blue;
 }
